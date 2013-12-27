@@ -11,22 +11,99 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+       <style type="text/css">
+	 .blockTxt:after {
+	   content: '';
+	   display: block;
+	   clear: both;
+	 }
+	 .blockImg {
+	   float: left; 
+	   margin-right: 7px;
+	   width: 100px;
+	   height: 100px;
+	 }
+       </style>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <h1>Archetypal Analysis Lab</h1>
-        <p></p>
+        <h1>aalab</h1>
 
+	<p>aalab
+	is <a href="https://github.com/aalab?tab=members">our</a>
+	place to do research on archetypal analysis.</p>
 
-        <p class="view"><a href="https://github.com/aalab">View My GitHub Profile</a></p>
-
-      </header>
+	<p><class="view"><a href="https://github.com/aalab">View
+	GitHub repositories</a></p>
+       </header>
+      
       <section>
-        <p>This will be the new home of <a href="http://archetypes.r-forge.r-project.org/">http://archetypes.r-forge.r-project.org/</a>.</p>
+	<p>
+	  The <a href="http://www.merriam-webster.com/dictionary/archetype">Merriam-Webster
+	    Online Dictionary</a> defines an archetyp as the original
+	  pattern or model of which all things of the same type are
+	  representations or copies. Then, the aim of the archetypal
+	  analysis is to find the "pure types", the archetypes, within a
+	  set defined in a specific context. The concept of archetypes
+	  is used in many different areas, the set can be defined in
+	  terms of literature, philosophy, psychology and also
+	  statistics. Here, the concrete problem is to find a few, not
+	  necessaily observed, points (archetypes) in a set of
+	  multivariate observations such that all the data can be well
+	  represented as convex mixtures of the archetypes.
+	</p>
+
+
+	<h5>Probabilistic formulation</h5>
+	
+	<p>
+	  <img class="blockImg" src="images/paa.png">
+	  <div class="blockTxt">
+	    <em>Probabilistic archetypal analysis</em><br/>
+	    Sohan Seth and Manuel J. A. Eugster. arXiv, 2013.<br/>
+	    [
+	    <a href="">PDF</a> | 
+	    <a href="https://github.com/aalab/paa/">Matlab code</a>
+	    ]
+	  </div>
+	</p>
+	
+	
+	<h5>Original algorithm and extensions</h5>
+
+	<p>
+	  <img class="blockImg" src="images/robust.png">
+	  <div class="blockTxt">
+	    <em>Weighted and robust archetypal analysis</em><br/>
+	    Manuel J. A. Eugster and Friedrich Leisch. Computational
+	    Statistics and Data Analysis, 55(3):1215-1225, 2011.<br/>
+	    [
+	    <a href="http://dx.doi.org/10.1016/j.csda.2010.10.017">PDF</a> | 
+	    <a href="http://epub.ub.uni-muenchen.de/11498/">Preprint</a> | 
+	    <a href="http://archetypes.r-forge.r-project.org/">R package</a>
+	    ]
+	  </div>
+	</p>
+
+	<p>
+	  <img class="blockImg" src="images/atypes.png">
+	  <div class="blockTxt">
+	    <em>From Spider-man to Hero -- Archetypal analysis in R</em><br/>
+	    Manuel J. A. Eugster and Friedrich Leisch. Journal of
+	    Statistical Software, 30(8):1-23, 2009.<br/>
+	    [
+	    <a href="http://www.jstatsoft.org/v30/i08">PDF</a> |
+	    <a href="http://archetypes.r-forge.r-project.org/">R package</a>
+	    ]
+	  </div>
+	</p>
       </section>
+
       <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme
+        by <a href="https://github.com/orderedlist">orderedlist</a></small></p> 
       </footer>
     </div>
     <script src="javascripts/scale.fix.js"></script>
